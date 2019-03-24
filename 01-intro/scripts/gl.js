@@ -3,7 +3,7 @@
  * @param {WebGLObject} gl 
  * @param {string} scriptId 
  * @param {string} type 
- * @returns {WebGLShader} shader
+ * @returns {WebGLShader}
  */
 function createShaderFromScript(gl, scriptId, type) {
     if(!type || !scriptId) {
