@@ -1,13 +1,10 @@
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>WebGL 入门</title>
 </head>
-
 <body>
     <canvas id="canvas" width="800" height="400"></canvas>
-
     <!-- 顶点着色器 -->
     <script type="shader-source" id="vertexShader">
         precision mediump float; // 设置浮点精度为中等
@@ -23,7 +20,6 @@
             gl_PointSize = 25.0;
         }
     </script>
-
     <!-- 片元着色器 -->
     <script type="shader-source" id="fragmentShader">
         precision mediump float;
@@ -35,8 +31,6 @@
             gl_FragColor = color;
         }
     </script>
-
     <script src="scripts/gl.js"></script>
 </body>
-
 </html>
